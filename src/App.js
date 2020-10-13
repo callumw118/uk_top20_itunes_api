@@ -1,9 +1,9 @@
 import React from 'react';
+import Top20Container from './containers/Top20Container';
 
 function App() {
   return (
-    // top20Container
-    <h1>hello</h1>
+    <Top20Container />
   );
 }
 
