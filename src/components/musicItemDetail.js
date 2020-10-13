@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function MusicItemDetail(props){
+export default function MusicItemDetail(props) {
     return (
         <div>
             <p>{props.index}</p>
