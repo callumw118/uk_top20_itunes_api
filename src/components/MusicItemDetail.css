@@ -1,0 +1,14 @@
+td{
+    border: 1px solid black;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+audio {
+    filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+    height: 25px;
+    margin-bottom: 15px;
+}
+
+
+

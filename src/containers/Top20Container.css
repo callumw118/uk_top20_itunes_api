@@ -1,0 +1,15 @@
+.container {
+    display:inline-block;
+    text-align:center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+  }

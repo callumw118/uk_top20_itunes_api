@@ -1,5 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import MusicList from '../components/MusicList';
+import './Top20Container.css';
 
 export default class top20Container extends Component {
     constructor(props) {
@@ -19,10 +20,12 @@ export default class top20Container extends Component {
 
     render() {
         return (
-            <div>
-                <h1>container</h1>
-                <MusicList songs={this.state.songs} />
-            </div>
+            <Fragment>
+                <header><h1>Charts Top 20</h1></header>
+                <div className="container">
+                    <MusicList songs={this.state.songs} />
+                </div>
+            </Fragment>
         )
     }
 }

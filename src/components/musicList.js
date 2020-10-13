@@ -11,8 +11,12 @@ export default function MusicList(props) {
     })
 
     return (
-        <div>
+        <table cellSpacing="0">
+            <thead>
+                <th></th>
+                <th></th>
+            </thead>
             {songList}
-        </div>
+        </table>
     )
 }
